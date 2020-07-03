@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    max-width: var(--widthContainer);
+    margin: 0 auto;
+}
+
+.header nav {
+    display: flex;
+}
+
+.header nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--mainColor);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/*** Links ***/
+
+.links {
+    margin-right: 3rem;
+}
+
+.links a {
+    padding: 0.5rem .75rem;
+}
+
+/*** Buttons ***/
+.buttons {
+    padding-right: 0.5rem;
+}
+
+.buttons a:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.buttons a {
+    padding: 0.5rem 1rem;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid var(--mainColor);
+}
+
+.buttons a svg {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.buttons a.buttonActive {
+    border: 1px solid var(--primaryColor);
+    background: var(--primaryColor);
+    color: #ffffff;
+}
+
+.buttonActive:hover {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+/*** LOGO ***/
+
+.logo {
+    margin-right: auto;
+    height: 45px;
+    padding: 0.5rem;
+}
+
+.logo img {
+    /*width: 100%;*/
+    height: 100%;
+    /*object-fit: contain;*/
+}

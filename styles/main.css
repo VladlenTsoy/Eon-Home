@@ -1,0 +1,15 @@
+@import "../public/fonts/fonts.css";
+
+:root {
+    --primaryColor: #b13038;
+    --mainColor: #000;
+    --widthFill: 100%;
+    --widthContainer: 1260px
+}
+
+body {
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    font-family: 'Museo Cyrl', serif;
+}
