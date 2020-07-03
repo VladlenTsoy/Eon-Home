@@ -1,0 +1,26 @@
+.about {
+    max-width: var(--widthContainer);
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem 0;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bgImage img{
+    transform: scale(1.3);
+}
+
+.content{
+    padding: 1rem;
+}
+
+.content h2{
+    font-size: 50px;
+    text-align: right;
+}
+
+.content h2 b {
+    font-weight: 600;
+}

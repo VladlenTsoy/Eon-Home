@@ -45,6 +45,11 @@
     border: 1px solid var(--mainColor);
 }
 
+.buttons a:hover {
+    border-color: var(--primaryColor);
+    color: var(--primaryColor);
+}
+
 .buttons a svg {
     margin-right: 3px;
     vertical-align: middle;

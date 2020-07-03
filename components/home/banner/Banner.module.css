@@ -2,22 +2,26 @@
     padding: 5rem 0;
     max-width: var(--widthContainer);
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    overflow: hidden;
 }
 
 .bannerText {
     padding: 0 0.5rem;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 60px;
     line-height: 80px;
     letter-spacing: 1px;
+    margin: 0;
 }
 
 .bannerTextStriped{
     display: inline-block;
     color: var(--mainColor);
     -webkit-animation: striped 6s cubic-bezier(0, 1.01, 1,-0.57) infinite;
+    font-weight: 900;
 }
 
 @keyframes striped {
@@ -49,10 +53,11 @@
 
 .bannerTextGradient{
     display: inline-block;
+    font-weight: 900;
 }
 
 /*** ***/
 
-.bgImage {
-    width: 50%;
+.bgImage img{
+    transform: scale(1.3);
 }

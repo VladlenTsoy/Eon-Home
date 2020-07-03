@@ -10,7 +10,7 @@ const Header = () => {
         <nav>
             <div className={styles.links}>
                 <a>Возможности</a>
-                <a>Цены</a>
+                <a>Цена</a>
             </div>
             <div className={styles.buttons}>
                 <a className={styles.buttonActive}>

@@ -1,0 +1,29 @@
+.opportunities{
+    max-width: var(--widthContainer);
+    margin: 5rem auto;
+}
+
+.opportunities h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 1rem;
+}
+
+.item{}
+
+.item img{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.item p {
+    font-size: 18px;
+}

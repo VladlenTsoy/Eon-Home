@@ -1,0 +1,28 @@
+.offer {
+    max-width: var(--widthFull);
+    margin: 0 auto;
+    text-align: center;
+    background: var(--bgLight);
+    padding: 2rem 0;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.title b{
+    font-weight: 900;
+}
+
+.button {
+    border-radius: 40px;
+    padding: 0.5rem 2.5rem;
+    border: 1px solid var(--primaryColor);
+    background: none;
+    font-size: 25px;
+    font-weight: 600;
+    background: var(--primaryColor);
+    color: #fff;
+    outline: none;
+}
